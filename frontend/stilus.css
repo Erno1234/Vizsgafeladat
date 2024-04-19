@@ -1,0 +1,31 @@
+.valaszok{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    margin: 10px;
+   
+}
+
+.valasz{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.valasz:hover{
+    background-color: antiquewhite;
+}
+
+
+main{
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+
+
+

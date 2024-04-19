@@ -1,0 +1,65 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Vizsgafeladat",
+    "dateExported": "2024-04-19T13:23:21.683Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "a40d2b38-5fe0-406a-bf80-35f7f9f3ff6c",
+            "name": "Teszt",
+            "containerId": "",
+            "created": "2024-04-19T12:07:28.641Z",
+            "sortNum": 20000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "6e717b23-7b76-4721-82d3-c47becbfd1e8",
+            "colId": "686505f1-f412-47a5-b5ec-2d8a55ac62b9",
+            "containerId": "a40d2b38-5fe0-406a-bf80-35f7f9f3ff6c",
+            "name": "kategoriak_index",
+            "url": "localhost:8000/api/tesztList",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-04-19T12:07:28.641Z",
+            "modified": "2024-04-19T12:09:11.383Z",
+            "headers": []
+        },
+        {
+            "_id": "6232e41d-5fe6-4d14-b016-f2c19e3915aa",
+            "colId": "686505f1-f412-47a5-b5ec-2d8a55ac62b9",
+            "containerId": "a40d2b38-5fe0-406a-bf80-35f7f9f3ff6c",
+            "name": "kategoriak_show",
+            "url": "localhost:8000/api/kategoria/1",
+            "method": "GET",
+            "sortNum": 15000,
+            "created": "2024-04-19T12:11:26.764Z",
+            "modified": "2024-04-19T12:12:01.664Z",
+            "headers": []
+        },
+        {
+            "_id": "d50ab422-bcbb-4d26-b232-5fcc9484221d",
+            "colId": "686505f1-f412-47a5-b5ec-2d8a55ac62b9",
+            "containerId": "a40d2b38-5fe0-406a-bf80-35f7f9f3ff6c",
+            "name": "kerdesek_index",
+            "url": "localhost:8000/api/tesztList",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-04-19T12:07:28.645Z",
+            "modified": "2024-04-19T12:20:31.591Z",
+            "headers": []
+        },
+        {
+            "_id": "8b3f5b70-d5dc-4b06-a227-a07e529a1439",
+            "colId": "686505f1-f412-47a5-b5ec-2d8a55ac62b9",
+            "containerId": "a40d2b38-5fe0-406a-bf80-35f7f9f3ff6c",
+            "name": "teszt_show",
+            "url": "localhost:8000/api/teszt/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-04-19T12:10:07.452Z",
+            "modified": "2024-04-19T12:11:02.931Z",
+            "headers": []
+        }
+    ]
+}
